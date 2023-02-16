@@ -1,0 +1,109 @@
+body, html {
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	background-color: rgb(58, 56, 56);
+}
+
+img{
+  height: 60px;
+}
+
+#titulo {
+  font-family: 'Bangers', cursive;
+  font-size: 60px;
+  margin-top: 0px;
+  text-align: center;
+  line-height: 110px;
+  color: #f5c800;
+}
+
+
+#titular {
+  background-position: 70% 68%;
+  height: 110px;
+  border-bottom: 1px solid black;
+}
+
+#juego {
+  width: 100%;
+  height: auto;
+  background-color: rgba(32, 32, 32, 0.281);
+}
+
+#seleccionCoches {
+  margin: 0px;
+  margin-bottom: 1%;
+  padding-top: 1%;
+  font-family: 'Bangers', cursive;
+  font-size: 2em;
+  color: #f5c800;
+}
+
+#eleccion {
+  text-align: center;
+  padding-bottom: 40px;
+  background-color: rgba(19, 19, 19, 0.521);
+  background-image: url(../img/meta.png);
+}
+
+#coches {
+  font-family: 'Times New Roman', Times, serif;
+  background-color: #101010;
+  color: #f5c800;
+  padding: 0.2%;
+  font-size: 25px;
+  border: 2px solid #c0c0c0;
+  border-radius: 10px;
+}
+#coches:hover {
+  background-color: #d44545;
+  color: #000000;
+}
+
+#iniciar, #reiniciar {
+  font-family: 'Times New Roman', Times, serif;
+  border-radius: 10px;
+  padding: 0.3%;
+  font-size: 25px;
+  color: #f5c800;
+  background-color: #101010;
+}
+#iniciar:hover, #reiniciar:hover {
+  background-color: #d44545;
+  color: #000000;
+}
+
+#posiciones{
+  margin-top: -25px;
+  /*top: 3em;*/
+  font-family: 'Times New Roman', Times, serif;
+  color: #f5c800;
+  font-size: 1.1em;
+  text-align: center;
+  background-color: #101010;
+  border-radius: 10px;
+  border: 2px solid #c0c0c0;
+  padding: 0.2%;
+  margin: center;
+  padding: 1.2%;
+  margin-left: 10%;
+  position: fixed;
+}
+caption{
+  font-family: 'Bangers', cursive;
+  margin-left: 0px;
+  font-size: 30px;
+  margin-top: 0px;
+  text-align: center;
+  line-height: 30px;
+  color: #000000;
+  background-color: #d44545;
+  border-radius: 10px;
+  border: 2px solid #c0c0c0;
+}
+#carrera{
+  margin-left: 0px;
+}
+

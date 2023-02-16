@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Enlazamos este html con el archivo de estilos de css-->
+    <link rel="stylesheet" href="css/estilo.css">
+    <!--Hemos utilizado una fuente de google el cual la debemos de enlazar con nuestro html-->
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+    <!--Cargamos jquery para poder animar el juego creado-->
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <title>Carrera de Coches</title>
+</head>
+<body>
+
+    <header id="titular">
+        <!--Pintamos en el navegador un título al juego y le añadimos la imagen de ilerna-->
+        <h1 id="titulo">
+            <img src="img/ilerna.png" alt="ilerna">
+            Carrera de Coches
+            <img src="img/ilerna.png" alt="ilerna">
+        </h1>
+       
+        
+    </header>
+    
+    <main id="juego">
+        <div id="eleccion">
+
+            <p id="seleccionCoches">Selecciona los participantes</p>
+            <!--Creamos una casilla para seleccionar el número de participantes
+            Con esta selección nos servirá para dibuar la cantidad de coches indicados-->
+            <select id="coches">
+                <option value="0">0 Participantes</option>
+                <option value="1">1 Participante</option>
+                <option value="2">2 Participantes</option>
+                <option value="3">3 Participantes</option>
+                <option value="4">4 Participantes</option>
+                <option value="5">5 Participantes</option>
+                <option value="6">6 Participantes</option>
+                <option value="7">7 Participantes</option>
+                <option value="8">8 Participantes</option>
+                <option value="9">9 Participantes</option>
+            </select>
+            <!--Aunque describamos los dos botones a utilizar, irán ocultándose en el 
+            proceso del juego según indique el arhcivo de javascript-->
+            <input type="button" id="iniciar" value="INICIAR">
+            <input type="button" id="reiniciar" value="REINICIAR">
+
+        </div>
+        <!-- Solo declaramos la tabla, el cuál se irá pintando dentro de la animación-->
+        <table id="posiciones"></table>
+        <!--Solo declaramos este elemento, el cuál se irá pintando dentro del bucle for
+        de arrayCoches -->
+        <div id="carrera"></div>
+    </main>
+    <!--Enlazamos el html con el arhcivo de javascript-->
+    <script src="js/main.js"></script>
+
+</body>
+</html>
